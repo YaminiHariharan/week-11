@@ -34,7 +34,7 @@ def kmeans(X, k):
 diamonds_num = sns.load_dataset('diamonds').select_dtypes(include='number')
 
 def kmeans_diamonds(n, k):
-     """
+    """
     Apply K-Means clustering to the first n rows of the diamonds dataset.
 
     Parameters
